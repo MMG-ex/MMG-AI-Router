@@ -6,7 +6,7 @@
   <strong>TEK EXE. TEK KONTROL NOKTASI. ÇOKLU AI SAĞLAYICI.</strong><br>
   <strong>MMG AI & AUTOMATION • YAZILIM</strong> tarafından geliştirilen Windows-first yerel AI yönlendirme kontrol kabuğu.
 </p>
-
+<p align="center"><a href="https://github.com/MMG-ex/MMG-AI-Router/releases/download/v1.0.9/MMG-AI-Router-v1.0.9.exe"><strong>⬇ MMG AI Router v1.0.9 İndir</strong></a><br>Windows x64 · <a href="https://github.com/MMG-ex/MMG-AI-Router/releases/download/v1.0.9/SHA256SUMS.txt">SHA-256 doğrulama</a> · <a href="https://github.com/MMG-ex/MMG-AI-Router/releases/tag/v1.0.9">Sürüm notları</a></p>
 <p align="center">
   <a href="../../releases"><strong>Releases / İndirmeler</strong></a>
   ·
