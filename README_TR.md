@@ -114,7 +114,22 @@ Benzer alanlarda local LLM gateway, multi-provider router ve coding-client gatew
 Farklılaştırıcı ürünleştirme kombinasyonu: **tek EXE kabuk + tek tuş istemci bağlantısı + yerel routing + sağlayıcı/model yönetimi + cihaz bazlı ticari lisans + doğrulanabilir binary dağıtımı**.
 
 ---
+<h2>🔑 Lisans mı gerekiyor?</h2>
 
+<p>
+MMG AI Router <strong>4 günlük ücretsiz deneme</strong> içerir.<br>
+30 / 60 / 90 / 365 günlük lisans seçenekleri sunulmaktadır.
+</p>
+
+<p>
+<a href="mailto:mmgaiautomation@gmail.com?subject=MMG%20AI%20Router%20Lisans%20Talebi">
+<strong>🔑 Lisans Talep Et</strong>
+</a>
+</p>
+
+<p>
+İletişim: <a href="mailto:mmgaiautomation@gmail.com">mmgaiautomation@gmail.com</a>
+</p>
 <p align="center">
   <img src="assets/brand/mmg-horizontal-white.png" alt="MMG AI & Automation Yazılım" width="58%">
 </p>
