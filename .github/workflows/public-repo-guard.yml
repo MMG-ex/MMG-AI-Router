@@ -1,1 +1,26 @@
+name: Public Repo Guard
 
+on:
+  push:
+  pull_request:
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Block obvious secret/signing/binary files
+        shell: bash
+        run: |
+          set -euo pipefail
+          bad="$(find . -type f \( \
+            -name '*.pfx' -o -name '*.p12' -o -name '*.pem' -o -name '*.key' -o \
+            -name '.env' -o -name '.env.*' -o -name '*.exe' -o -name '*.mmg' -o \
+            -iname '*private_key*' -o -iname '*signing_key*' -o -iname '*license_private*' \
+          \) -print)"
+          if [ -n "$bad" ]; then
+            echo "Forbidden public-repo file detected:"
+            echo "$bad"
+            exit 1
+          fi
+          echo "Public repository guard passed."
